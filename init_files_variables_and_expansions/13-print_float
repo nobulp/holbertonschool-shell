@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%.2f\n" "$(echo "$NUM1 + $NUM2" | awk '{printf "%.2f", $1 + $3}')"
+awk "BEGIN {printf \"%.2f\n\", $NUM1 + $NUM2}"
