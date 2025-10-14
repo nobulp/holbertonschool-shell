@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -v a="$NUM1" -v b="$NUM2" 'BEGIN{printf "%.2f\n", a+b}'
+printf "%.2f\n" "$NUM"
