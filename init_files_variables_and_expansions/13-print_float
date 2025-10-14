@@ -1,2 +1,2 @@
 #!/bin/bash
-awk "BEGIN {printf \"%.2f\n\", ${NUM1} + ${NUM2}}"
+awk "BEGIN {printf \"%.2f\n\", ENVIRON[\"NUM1\"] + ENVIRON[\"NUM2\"]}"
